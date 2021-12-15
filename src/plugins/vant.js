@@ -1,0 +1,24 @@
+import Vue from 'vue';
+import { Tab, Tabs } from 'vant';
+import { Image as VanImage } from 'vant';
+import { Cascader } from 'vant';
+import { Field } from 'vant';
+import { Popup } from 'vant';
+import { Button } from 'vant';
+import { IndexBar, IndexAnchor } from 'vant';
+import { Cell, CellGroup } from 'vant';
+import { Col, Row } from 'vant';
+
+Vue.use(Col);
+Vue.use(Row);
+Vue.use(Cell);
+Vue.use(CellGroup);
+Vue.use(IndexBar);
+Vue.use(IndexAnchor);
+Vue.use(Button);
+Vue.use(Popup);
+Vue.use(Field);
+Vue.use(Cascader);
+Vue.use(VanImage);
+Vue.use(Tab);
+Vue.use(Tabs);
